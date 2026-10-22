@@ -1,0 +1,21 @@
+# Rust build artifacts
+target/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Rust tooling and local environment files
+.env
+.env.*
+!.env.example
+
+# Coverage and profiling output
+tarpaulin-report.html
+lcov.info
+
